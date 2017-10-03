@@ -104,7 +104,7 @@ int main(void)
 {
     SystemInit();
 	
-	uartxInit();        //print serial port init
+	  uartxInit();        //print serial port init
     
     userInit();
     gizwitsInit();

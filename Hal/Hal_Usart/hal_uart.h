@@ -30,7 +30,7 @@
 *	UART1_RX   PA10
 ****************************************************************/
 #define USART1_GPIO_Cmd		     RCC_AHB1PeriphClockCmd
-#define USART1_GPIO_CLK          RCC_AHB1Periph_GPIOA
+#define USART1_GPIO_CLK        RCC_AHB1Periph_GPIOA
 
 #define USART1_AFIO_Cfg          GPIO_PinAFConfig
 #define USART1_AFIO_Per          GPIO_AF_USART1
@@ -39,7 +39,7 @@
 
 
 #define USART1_CLK_Cmd		     RCC_APB2PeriphClockCmd
-#define USART1_CLK               RCC_APB2Periph_USART1 
+#define USART1_CLK             RCC_APB2Periph_USART1 
 
 #define USART1_GPIO_PORT         GPIOA
 #define USART1_RxPin             GPIO_Pin_10
@@ -50,7 +50,7 @@
 #if defined (Open_UART2)
 
 #define USART2_GPIO_Cmd		     RCC_AHB1PeriphClockCmd
-#define USART2_GPIO_CLK          RCC_AHB1Periph_GPIOA
+#define USART2_GPIO_CLK         RCC_AHB1Periph_GPIOA
 
 #define USART2_AFIO_Cfg          GPIO_PinAFConfig
 #define USART2_AFIO_Per          GPIO_AF_USART2
